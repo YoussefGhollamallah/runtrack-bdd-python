@@ -1,0 +1,1 @@
+SELECT * FROM etudiants WHERE age <= 25 and age >= 18 ORDER BY age ASC;
