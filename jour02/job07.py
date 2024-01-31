@@ -28,3 +28,8 @@ print()
 print("Voici la liste des salariée :")
 for j in jointure:
     print( f" - {j[2]} {j[1]} travaille au service {j[6]}.")
+
+
+test.close()
+cursor.close()
+db.close()
