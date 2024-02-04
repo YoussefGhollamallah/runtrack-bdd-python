@@ -39,4 +39,3 @@ class Db:
         except mysql.connector.Error as err:
             print(f"erreur {err}")
     
-mydb = Db(host='localhost', user="root",password="root",database="store")
